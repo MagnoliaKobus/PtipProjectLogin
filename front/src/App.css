@@ -1,0 +1,84 @@
+.primary-button-lg{
+  border-radius: 6px;
+  padding: 8px 24px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(58, 87, 232, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
+}
+.disable-button-lg{
+  border-radius: 6px;
+  padding: 8px 24px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(138, 146, 166, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: default;
+}
+
+.primary-button-lg:hover{
+  opacity: 0.95;
+}
+
+.text-link-lg {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(113, 113, 113, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+
+  cursor: pointer;
+}
+
+.text-link-lg:hover {
+  color: rgba(40, 40, 40, 1);
+}
+
+.full-width{
+  width: 100%;
+}
+
+.kakao-sign-in-button {
+  width: 112px;
+  height: 56px;                /* 이미 2:1 비율 */
+  background: #ffe812;         /* 카카오 버튼 배경색 */
+  border-radius: 8px;          /* 라운드 처리 */
+  background-image: url(assets/images/kakao_login_large.png);
+  background-size: contain;    /* 이미지 비율 유지하며 최대 채움 */
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+/* 네이버 버튼: 2:1 비율 + 초록 여백 */
+.naver-sign-in-button {
+  width: 112px;
+  height: 56px;                /* 2:1 비율로 맞춤! */
+  background: #03c75a;         /* 네이버 초록배경 */
+  border-radius: 8px;
+  background-image: url(assets/images/btnG_small.png);
+  background-size: contain;    /* 이미지 비율 유지, 남는 부분은 배경색이 채움 */
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+}
