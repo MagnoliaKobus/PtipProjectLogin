@@ -14,7 +14,7 @@ const errorHandler = (error: any) => {
     return responseBody;
 }
 
-const DOMAIN = 'http://localhost:8000';
+const DOMAIN = 'https://hankyulpractice.p-e.kr';
 const API_DOMAIN = `${DOMAIN}/api/v1`;
 
 
